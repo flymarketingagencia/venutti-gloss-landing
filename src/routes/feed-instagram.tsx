@@ -15,8 +15,8 @@ export const Route = createFileRoute("/feed-instagram")({
   component: FeedInstagramPage,
   head: () => ({
     meta: [
-      { title: "Feed Instagram @meulisoperfeito · Venutti" },
-      { name: "description", content: "Mockup das primeiras 9 postagens do perfil @meulisoperfeito — Bioplastia Capilar Venutti." },
+      { title: "Feed Instagram @bioplastiacapilar · Venutti" },
+      { name: "description", content: "Mockup das primeiras 9 postagens do perfil @bioplastiacapilar — Bioplastia Capilar Venutti." },
     ],
   }),
 });
@@ -58,7 +58,7 @@ function FeedInstagramPage() {
       <section className="mx-auto max-w-3xl px-6 pb-12 pt-16 text-center md:pt-24">
         <p className="eyebrow mb-5">estratégia de feed</p>
         <h1 className="display-serif text-4xl md:text-5xl lg:text-6xl">
-          @meulisoperfeito <br />
+          @bioplastiacapilar <br />
           <span className="accent-italic">primeiras 9 postagens.</span>
         </h1>
         <p className="mt-6 text-ink-soft">
@@ -79,7 +79,7 @@ function FeedInstagramPage() {
           {/* IG header */}
           <div className="flex items-center justify-between border-b border-border px-4 py-3">
             <div className="flex items-center gap-1">
-              <p className="text-base font-semibold">meulisoperfeito</p>
+              <p className="text-base font-semibold">bioplastiacapilar</p>
               <span className="text-xs">▾</span>
             </div>
             <div className="flex items-center gap-3 text-ink">
@@ -113,12 +113,11 @@ function FeedInstagramPage() {
             </div>
 
             <div className="mt-4 text-sm leading-relaxed">
-              <p className="font-semibold">Meu Liso Perfeito</p>
-              <p className="text-ink-soft">Bioplastia Capilar · 0% Formol</p>
-              <p>Liso natural, brilho de salão — em casa.</p>
-              <p>✨ Tecnologia Venutti Professional</p>
-              <p className="font-medium text-accent">↓ kit oficial · frete grátis</p>
-              <p className="text-accent">linktr.ee/meulisoperfeito</p>
+              <p className="font-semibold">Bioplastia Capilar Venutti</p>
+              <p>Liso leve, brilho espelhado e redução de volume</p>
+              <p className="text-ink-soft">0% formol | Vegano</p>
+              <p className="font-medium">👇 Conheça os kits</p>
+              <p className="text-accent">linktr.ee/bioplastiacapilar</p>
             </div>
 
             <div className="mt-4 grid grid-cols-2 gap-2">
